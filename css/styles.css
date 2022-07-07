@@ -67,6 +67,14 @@ a:hover {
   .navbar {
     text-align: left;
   }
+
+  .left {
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
 }
 
 /* navbar */
@@ -290,6 +298,7 @@ a:hover {
   margin: auto;
   width: 100%;
   max-width: 600px;
+  text-align: center;
 }
 
 .imgSlideA {
@@ -354,4 +363,9 @@ a:hover {
 .next:hover {
   background-color: rgba(23, 185, 120, 0.8);
   color: #071A52;
+}
+
+.caption-container {
+  padding-top: 1rem;
+  color: #fff;
 }
